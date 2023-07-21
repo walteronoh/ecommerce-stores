@@ -14,7 +14,7 @@ function App() {
         <Routers>
           <NavigationBar />
           <Routes>
-            <Route path="/" element={<Stores />} />
+            <Route path="/ecommerce-stores" element={<Stores />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
         </Routers>

@@ -24,7 +24,7 @@ const Cart = () => {
 
       <div className="foot">
         <h3>Subtotal: $ {populateSubTotal()}</h3>
-        <Link to={"/"}>
+        <Link to={"/ecommerce-stores"}>
           <button>Continue Shopping</button>
         </Link>
       </div>

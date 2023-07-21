@@ -9,7 +9,7 @@ const NavigationBar = () => {
     <div className="topNav">
       <div className="logo">jamdown-Technologies</div>
       <div className="right-panel">
-        <Link to="/">
+        <Link to="/ecommerce-stores">
           <span>J</span>
           <span>D</span>stores
         </Link>
