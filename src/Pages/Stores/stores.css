@@ -1,0 +1,74 @@
+.storesHolder {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.storesHolder h3 {
+  margin: 1rem 0;
+  letter-spacing: 1px;
+  font-family: arial;
+  font-size: 18px;
+}
+.storesHolder h3 span {
+  color: magenta;
+}
+.storeItems {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.storeItem {
+  margin-bottom: 2rem;
+  width: 29%;
+  height: auto;
+}
+.storeItem img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+.itCred {
+  position: relative;
+}
+.itCred h3 {
+  color: magenta;
+  margin-left: 15%;
+  font-family: serif;
+}
+.itCred h4 {
+  letter-spacing: 1px;
+  margin-left: 15%;
+}
+
+.btnCred1 {
+  position: absolute;
+  right: 1%;
+  bottom: 1%;
+  padding: 6px;
+  border: 2px solid magenta;
+  border-radius: 14%;
+}
+.itCred button:hover {
+  background-color: rgb(66, 63, 83);
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 650px) {
+  .storeItem {
+    margin-bottom: 2rem;
+    width: 55%;
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 900px) {
+  .storeItem {
+    margin-bottom: 2rem;
+    width: 40%;
+  }
+}

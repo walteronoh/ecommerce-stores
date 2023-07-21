@@ -1,0 +1,116 @@
+.cartHolder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+.cartHolder h3 {
+  margin: 1rem 0;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: serif;
+  font-style: italic;
+}
+.cartHolder h3 span {
+  color: magenta;
+  margin-left: 0.5rem;
+}
+.cartItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.cartItem {
+  margin-bottom: 2rem;
+  width: 50%;
+  height: auto;
+}
+.cartItem img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+.itCred {
+  position: relative;
+}
+.itCred h3 {
+  color: magenta;
+  margin-left: 10%;
+  font-family: serif;
+  font-size: 18px;
+  font-style: normal;
+}
+.itCred h4 {
+  letter-spacing: 1px;
+  margin-left: 10%;
+}
+.itCred h5 {
+  width: 80%;
+  margin: 0.5rem auto;
+  font-family: arial;
+}
+.funcHolder {
+  position: relative;
+}
+.cartFunc {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.cartFunc input {
+  width: 30px;
+  outline: 0;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid salmon;
+}
+.cartFunc button {
+  width: 30px;
+  padding: 5px;
+  outline: 0;
+  border: 1px solid salmon;
+}
+.foot h3 {
+  font-family: arial;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.foot button {
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid magenta;
+  letter-spacing: 1px;
+}
+.foot button:hover {
+  background-color: rgb(66, 63, 83);
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 900px) {
+  .cartItem {
+    margin-bottom: 2rem;
+    width: 40%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .cartItem {
+    margin-bottom: 2rem;
+    width: 25%;
+    height: auto;
+  }
+}
